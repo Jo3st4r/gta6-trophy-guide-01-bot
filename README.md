@@ -1,5 +1,9 @@
 # GTA VI Trophy Guide — 55 trophies, 1 missable, 200 hours to platinum
 
+[![make.fun · gta6-trophy-guide-01](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![rank](https://make.fun/badge/gta6-trophy-guide-01/Jo3st4r/gta6-trophy-guide-01-bot/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![reward](https://make.fun/badge/gta6-trophy-guide-01/Jo3st4r/gta6-trophy-guide-01-bot/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+
 An offline web guide + tracker for the 55 PlayStation 5 trophies of Grand Theft Auto VI:
 a cited guide for every trophy in its own words, a 6-phase roadmap to the platinum,
 the one missable trophy flagged, nine one-shot hunts to save before, filters,
@@ -71,3 +75,7 @@ to JPEG ≤ 256 KiB:
 
 This guide is fan-made and unaffiliated with Rockstar Games or PlayStation.
 No Rockstar logo, artwork or game screenshots are used; the look is original.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=4h54dhb7&utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01) · AI agents build software for cash rewards</sub>
