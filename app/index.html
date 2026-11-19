@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>55 Trophies, 1 Missable, 200 Hours: Hunt the Platinum Before Chapter 1 Locks It — GTA VI Trophy Guide</title>
+<meta name="description" content="An offline guide and tracker for all 55 reported GTA VI PlayStation 5 trophies: a cited guide for each, a 6-phase roadmap to the platinum, the one missable trophy flagged, and one-shot hunts to save before.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="sun" aria-hidden="true"></div>
+  <div class="hero-text">
+    <p class="kicker">GRAND THEFT AUTO VI &middot; PLAYSTATION 5 &middot; OFFLINE GUIDE</p>
+    <h1>55 trophies. 1 missable.<br>200 hours to platinum.</h1>
+    <p class="tagline">Hunt every one-shot before it locks — save early, check off, and race the platinum clock down Leonida's neon coast.</p>
+    <div class="stats" id="stats"></div>
+    <div class="progress-wrap" role="status" aria-label="Trophy progress">
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      <p id="progressText">0 of 55 earned</p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="notice" id="statusNotice">
+    <strong>Read this first — the list is reported, not confirmed.</strong>
+    Rockstar and PlayStation had not published an official GTA VI trophy list when this guide was built (19 Nov 2026).
+    The 55 names, descriptions and grades here are the list reported in agreement by several outlets on 18 Nov 2026;
+    the PSNProfiles community has called the circulating named list &ldquo;probably fake&rdquo;, and only the count of 55
+    traces to a dataminer claim. Every trophy below is marked <em>reported</em> and cites its sources — verify each one
+    against your console's trophy list at launch. <a href="#sources">Full source list</a>
+  </section>
+
+  <section class="controls" aria-label="Filters and progress tools">
+    <label>Search <input id="search" type="search" placeholder="Trophy, mission or keyword…" autocomplete="off"></label>
+    <label>Grade
+      <select id="grade">
+        <option value="all">All grades</option>
+        <option value="platinum">Platinum</option>
+        <option value="gold">Gold</option>
+        <option value="silver">Silver</option>
+        <option value="bronze">Bronze</option>
+      </select>
+    </label>
+    <label>Kind
+      <select id="category">
+        <option value="all">All kinds</option>
+        <option value="story">Story</option>
+        <option value="side">Side strands</option>
+        <option value="activity">Activities</option>
+        <option value="collectible">Collectibles</option>
+        <option value="heist">Heists &amp; combat</option>
+        <option value="secret">Secret</option>
+        <option value="completion">100% completion</option>
+        <option value="platinum">Platinum</option>
+      </select>
+    </label>
+    <label>Flags
+      <select id="flag">
+        <option value="all">All trophies</option>
+        <option value="missable">The 1 missable</option>
+        <option value="oneshot">One-shot hunts (9)</option>
+        <option value="spoiler">Story / secret (spoilers)</option>
+      </select>
+    </label>
+    <label class="check"><input id="earnedOnly" type="checkbox"> Earned only</label>
+    <label class="check"><input id="hideSpoilers" type="checkbox" checked> Hide story spoilers until earned</label>
+    <span class="tools">
+      <button id="exportBtn" type="button">Export progress</button>
+      <label class="importBtn">Import progress <input id="importFile" type="file" accept="application/json,.json"></label>
+      <button id="resetBtn" type="button">Reset</button>
+    </span>
+  </section>
+
+  <div class="layout">
+    <section class="list-col" aria-label="Trophy checklist">
+      <h2 id="listHeading">Checklist</h2>
+      <p class="count" id="countText"></p>
+      <ul class="trophy-list" id="trophyList"></ul>
+    </section>
+
+    <aside class="detail-col" aria-label="Selected trophy guide">
+      <div id="detail" class="detail"></div>
+    </aside>
+  </div>
+
+  <section class="roadmap" id="roadmap" aria-label="Roadmap to the platinum">
+    <h2>The road to platinum — 6 phases</h2>
+    <p class="roadmap-intro">One playthrough, in this order. Every trophy appears in exactly one phase.</p>
+    <ol class="phases" id="phases"></ol>
+  </section>
+
+  <section class="missable-box" id="missableBox" aria-label="Missable trophies">
+    <h2>Missable &amp; one-shot — save before you try</h2>
+    <p><strong>1 missable:</strong> <span id="missableName"></span> — Lucia's balcony meditation in Chapter 1 disappears after the chapter, and there is reportedly no mission replay. Do it before Chapter 1 ends and keep a manual save at the start of every chapter.</p>
+    <p><strong>9 one-shot hunts:</strong> each must be completed in a single attempt or a single story moment. Save first, attempt, reload the save if it fails. The list is in the roadmap's phase 3 and flagged in the checklist.</p>
+  </section>
+
+  <section class="sources" id="sources" aria-label="Sources">
+    <h2>Sources</h2>
+    <p>Every trophy's guide cites the sources its facts come from. Names and descriptions are the reported list; guides are written in this guide's own words. No text is copied from any source.</p>
+    <ul id="sourceList"></ul>
+    <p class="fineprint">List status: reported pre-launch list, 18–19 Nov 2026 — see the notice at the top of this page. This guide is fan-made, offline, and unaffiliated with Rockstar Games or PlayStation. No Rockstar logo, artwork or game screenshots are used; the look is original.</p>
+  </section>
+</main>
+
+<footer>
+  <p>GTA VI Trophy Guide — 55 reported trophies, 1 missable, 9 one-shots, 1 platinum road. Progress is saved in your browser only; export it to keep a backup.</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
